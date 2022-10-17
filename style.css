@@ -1,0 +1,17 @@
+h1{/*h1 are block elements by default*/
+    background-color: aqua;
+    border: 1px solid black;
+    width: 300px;
+    /*display: inline; -- with this we can make by default blocked elements inline*/
+}
+span{/* by default spans are inline elements */
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: aliceblue;
+    width: 500px;
+    padding: 10px;
+    margin: 100px;
+    /*display: block; --- we make inline elements blocked */
+    /* width and height are blocked when it comes to inline elements, along with some other attributes.
+    in order to get passed that i can do "display: inline-block" */
+}
